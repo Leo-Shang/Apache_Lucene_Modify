@@ -1,0 +1,5 @@
+docker build -t cmpt456-lucene-solr:6.6.7 .
+docker run -v ~/IdeaProjects/A2/src/lucene-solr:/lucene-solr/ -it cmpt456-lucene-solr:6.6.7
+ant -f lucene/demo/build.xml
+ant -f lucene/demo/build.xml -Ddocs=lucene/demo/data/wiki-small/en/articles/ run-indexing-demo
+ant -f lucene/demo/build.xml run-search-index-demo
