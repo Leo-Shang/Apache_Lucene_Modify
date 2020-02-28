@@ -2,7 +2,7 @@
 
 ## Note
 
-	This project is some modification towards Lucene library in Java. Due to the concern about the size of Lucene library, this repository only includes the modification files. The codebase can be forked from https://github.com/apache/lucene-solr.
+This project is some modification towards Lucene library in Java. Due to the concern about the size of Lucene library, this repository only includes the modification files. The codebase can be forked from https://github.com/apache/lucene-solr.
 
 ## Environment
 
